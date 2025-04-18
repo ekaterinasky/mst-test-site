@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Arial";
+    src: url("fonts/aria-regularl.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: "Arial Italic";
+    src: url("fonts/arial-italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: url("fonts/arial-bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Prata";
+    src: url("fonts/prata-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    background-color: #282829;
+} 
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.page-header {
+    margin-bottom: 100px;
+}
+
+.promo-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.promo-list__wrapper {
+    width: 614px;
+}
+
+.promo-list {
+    list-style: none;
+}
+
+.promo-item {
+    margin-bottom: 80px;
+    border-bottom: 1px solid #55565a;
+}
+
+.promo-item:last-child {
+    border-bottom: none; 
+}
+
+.promo-item__link {
+    color: #ffffff;
+    text-decoration: none;
+}
