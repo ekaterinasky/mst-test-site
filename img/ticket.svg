@@ -1,0 +1,18 @@
+<svg width="39.000000" height="37.000000" viewBox="0 0 39 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip45_87">
+			<rect id="tick_ssoz1sn9kkb8 2" rx="0.000000" width="38.000000" height="36.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="tick_ssoz1sn9kkb8 2" rx="0.000000" width="38.000000" height="36.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip45_87)">
+		<path id="Vector" d="M37 18.5C37 28.71 28.71 37 18.5 37C8.28 37 0 28.71 0 18.5C0 8.28 8.28 0 18.5 0C28.71 0 37 8.28 37 18.5Z" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd"/>
+		<path id="Vector" d="M18.5 37C28.71 37 37 28.71 37 18.5C37 8.28 28.71 0 18.5 0C8.28 0 0 8.28 0 18.5C0 28.71 8.28 37 18.5 37ZM24.83 33.79Q21.91 35 18.5 35Q15.08 35 12.16 33.79Q9.25 32.58 6.83 30.16Q4.41 27.75 3.2 24.83Q2 21.91 2 18.5Q2 15.08 3.2 12.16Q4.41 9.25 6.83 6.83Q9.25 4.41 12.16 3.2Q15.08 2 18.5 2Q21.91 2 24.83 3.2Q27.75 4.41 30.16 6.83Q32.58 9.25 33.79 12.16Q35 15.08 35 18.5Q35 21.91 33.79 24.83Q32.58 27.75 30.16 30.16Q27.75 32.58 24.83 33.79Z" fill="#EFCFAD" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M36.09 12.77C35.56 11.16 34.83 9.64 33.91 8.26L17.71 25.13L17.75 27L18.51 27L36.09 12.77Z" fill="#A4907D" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M39 6C38.76 4.77 36.5 4 36.5 4C36.04 3.55 33.45 6.05 33 6.5L18.07 22L11.5 14.5C11.04 14.05 9.95 13.55 9.5 14L7.36 15.42C6.91 15.87 6.91 16.59 7.36 17.04L17.12 26.68C17.38 26.94 17.73 27.04 18.07 27C18.41 27.04 18.76 26.94 19.02 26.68L37.02 8.89C37.48 8.44 39.25 7.34 39 6Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M19.02 26.68L37.02 8.89C38.5 8 39.45 6.44 39 6C38.54 5.55 36.49 6.75 36.49 6.75L17.97 24.96L7.76 15.02L7.36 15.42C6.91 15.87 6.91 16.59 7.36 17.03L17.12 26.68C17.38 26.93 17.73 27.04 18.07 27C18.41 27.04 18.76 26.93 19.02 26.68Z" fill="#EFCFAD" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
