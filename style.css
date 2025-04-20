@@ -104,7 +104,8 @@ body {
 }
 
 .page-header {
-	width: 1920px;
+	width: 100%;
+	max-width: 1920px;
 	margin: 0 auto;
 	padding-top: 27px;
     margin-bottom: 100px;
@@ -112,10 +113,11 @@ body {
 	padding-bottom: 50px;
 	object-fit: cover;
 	background-color: #222222;
-	background-image: url(img/bg-first.jpeg);
+	background-image: url('img/bg-first.jpg');
 	background-repeat: no-repeat;
 	background-position: right top;
-	background-size: auto 100%;
+	background-size: 763px 100%;
+	transition: padding-top 0.3s ease;
 }
 
 .main-nav {
@@ -123,7 +125,26 @@ body {
 	max-width: 805px;
 	margin-bottom: 244px;
 	flex-wrap: wrap;
+	padding: 15px 0;
+  	background-color: transparent;
+  	transition: all 0.3s ease;
 }
+
+/* Стили для фиксированной навигации */
+.main-nav.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 0;
+	padding: 15px 185px;
+	background-color: rgba(34, 34, 34, 0.9);
+	backdrop-filter: blur(5px);
+	z-index: 1000;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
 
 .site-navigation {
 	list-style: none;
@@ -244,7 +265,6 @@ body {
 .promo-img__link img {
 	object-fit: cover;
 	height: 100%;
-	width: 100%;
 }
 
 .promo-item__decor::before {
@@ -276,6 +296,7 @@ body {
 	flex-direction: column;
 	flex-wrap: wrap;
 	margin-bottom: 20px;
+	margin-right: 100px;
 }
 
 .form-wrapper {
@@ -303,7 +324,7 @@ body {
 .wrap::before {
 	content: " ";
 	position: absolute;
-	background-image: url('./img/form-ftoto-first.png');
+	background-image: url('./img/form-photo-first.png');
     display: block;
     width: 600px;
     height: 809px;
