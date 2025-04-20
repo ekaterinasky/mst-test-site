@@ -44,7 +44,7 @@ body {
     color: #ffffff;
     background-color: #282829;
 	font-style: normal;
-	min-width: 1920px;
+	max-width: 1920px;
 }
 
 .logo {
@@ -223,60 +223,63 @@ body {
 }
 
 .promo {
-	width: 1920px;
-	margin: 0 auto;
-	margin-bottom: 100px;
-}
+ 	width: 1920px;
+ 	margin: 0 auto;
+ 	margin-bottom: 100px;
+ }
 
-.promo-wrapper {
-    display: flex;
-	flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-}
+ .promo-wrapper {
+     display: flex;
+ 	flex-wrap: wrap;
+     width: 100%;
+     justify-content: space-between;
+ }
 
-.promo-list__wrapper {
-    width: 614px;
-	margin-top: 53px;
-}
+ .promo-list__wrapper {
+     width: 614px;
+ 	margin-top: 53px;
+ }
 
-.promo-list {
-    list-style: none;
-}
+ .promo-list {
+     list-style: none;
+ }
 
-.promo-item {
-	padding: 40px 0;
-    border-bottom: 1px solid #55565a;
-	display: flex;
-}
+ .promo-item {
+     margin-bottom: 80px;
+ 	padding: 40px 0;
+     border-bottom: 1px solid #55565a;
+ 	display: flex;
+ }
 
-.promo-item:last-child {
-    border-bottom: none;
-	margin-bottom: 80px;
-}
+ .promo-item:last-child {
+     border-bottom: none;
+     border-bottom: none;
+ 	margin-bottom: 80px;
+ }
 
-.promo-item__link {
-    color: #ffffff;
-    text-decoration: none;
-}
+ .promo-item__link {
+     color: #ffffff;
+     text-decoration: none;
+ }
 
-.promo-img__link img {
-	object-fit: cover;
-	height: 100%;
-}
+ .promo-img__link img {
+ 	object-fit: cover;
+ 	height: 100%;
+	width: 600px;
+ }
 
-.promo-item__decor::before {
-	content: " ";
-	background-image: url('img/work-icon.svg');
-    display: block;
-    width: 58px;
-    height: 47px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-right: 20px;
-	flex-shrink: 0;
-}
+ .promo-item__decor::before {
+ 	content: " ";
+ 	background-image: url('img/work-icon.svg');
+     display: block;
+     width: 58px;
+     height: 47px;
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+     margin-right: 20px;
+ 	flex-shrink: 0;
+ }
 
 .contacts {
 	position: relative;
