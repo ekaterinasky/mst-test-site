@@ -1,5 +1,3 @@
-/* В коде присутствуют margin-bottom между дубликатами flex элементов. Так как про Pixel Perfect в тз не указан, то не сверяла.*/
-
 @font-face {
     font-family: "Arial";
     src: url("fonts/aria-regularl.woff2") format("woff2");
