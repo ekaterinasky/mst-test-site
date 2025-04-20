@@ -140,22 +140,6 @@
 	  margin-bottom: 40px;
 	}
 
-	.promo-wrapper {
-	  flex-direction: column;
-	}
-
-	.promo-img__link {
-	  width: 100%;
-	  margin-bottom: 20px;
-	}
-
-	.promo-img__link img {
-	  width: 100%;
-	  height: auto;
-	  max-height: 300px;
-	  object-fit: cover;
-	}
-
 	.promo-list__wrapper {
 	  width: 100%;
 	  margin-top: 0;
@@ -174,6 +158,10 @@
 	  width: 40px;
 	  height: 32px;
 	  margin-right: 10px;
+	}
+
+	.promo-image-container-mobile {
+		display: none;
 	}
 
 	.button-promo {
@@ -386,14 +374,8 @@
 	  display: block;
 	}
 
-	.promo-img__link,
 	.promo-list__wrapper {
 	  width: 100%;
-	}
-
-	.promo-img__link img {
-	  width: 100%;
-	  height: auto;
 	}
 
 	.promo-list__wrapper {
@@ -406,7 +388,7 @@
 		margin-left: auto;
 	}
 
-	.promo-img__link-tablet {
+	.promo-image-container-mobile {
 		display: none;
 	}
 

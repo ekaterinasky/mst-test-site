@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<!-- <link rel="stylesheet" href="adaptive.css"> -->
+	<link rel="stylesheet" href="adaptive.css">
 	<script src="js/main.js" defer></script>
 	<title>Mst-test</title>
 </head>
@@ -55,11 +55,12 @@
 		</section>
 	</header>
 	<section class="promo">
-		<h2 class="visually-hidden">Our work</h2>
-		<div class="promo-wrapper">
-			<a class="promo-img__link" href="#">
-				<img src="img/gallery-photo-1.jpg" alt="" width="600" height="724">
-			</a>
+		<div class="promo-column">
+			<div class="promo-image-container">
+				<img src="img/gallery-photo-1.jpg" alt="Изображение 1">
+			</div>
+		</div>
+		<div class="promo-column">
 			<div class="promo-list__wrapper">
 				<ul class="promo-list">
 					<li class="promo-item promo-item__decor">
@@ -81,9 +82,11 @@
 				</ul>
 				<a class="button button-promo" href="#">Order</a>
 			</div>
-			<a class="promo-img__link promo-img__link-tablet" href="#">
-				<img src="img/gallery-photo-2.jpeg" alt="" width="600" height="724">
-			</a>
+		</div>
+		<div class="promo-column">
+			<div class="promo-image-container promo-image-container-mobile">
+				<img src="img/gallery-photo-2.jpeg" alt="Изображение 2">
+			</div>
 		</div>
 	</section>
 	<section class="contacts">
