@@ -319,3 +319,178 @@
 		display: none;
 	}
   }
+
+/* Планшетная версия (768px) */
+@media (min-width: 321px) and (max-width: 1023px) {
+	body {
+	  min-width: 100%;
+	  font-size: 18px;
+	}
+
+	.page-header {
+	  padding: 20px;
+	  margin-bottom: 50px;
+	  background-size: 46% 100%;
+	  padding-left: 20px;
+	}
+
+	.main-nav {
+	  max-width: 100%;
+	  margin-bottom: 50px;
+	  padding: 0;
+	  flex-wrap: nowrap;
+	}
+
+	.logo {
+	  margin-right: auto;
+	}
+
+	.site-navigation {
+	  column-gap: 10px;
+	}
+
+	.site-navigation__link {
+	  padding: 15px 5px;
+	  font-size: 14px;
+	}
+
+	.hero-wrapper {
+	  margin-right: 0;
+	  padding-right: 20px;
+	}
+
+	.title {
+	  font-size: 48px;
+	  width: 100%;
+	  margin-bottom: 30px;
+	}
+
+	.list-title {
+	  font-size: 32px;
+	  width: 100%;
+	  margin-bottom: 40px;
+	}
+
+	.avantages-item {
+	  font-size: 18px;
+	  margin-bottom: 25px;
+	}
+
+	.button {
+	  padding: 25px 35px;
+	  font-size: 16px;
+	}
+
+	/* Адаптация промо-секции */
+	.promo {
+	  width: 100%;
+	  padding: 0 20px;
+	  margin-bottom: 70px;
+	}
+
+	.promo-wrapper {
+	  display: block;
+	}
+
+	.promo-img__link,
+	.promo-list__wrapper {
+	  width: 100%;
+	}
+
+	.promo-img__link img {
+	  width: 100%;
+	  height: auto;
+	}
+
+	.promo-list__wrapper {
+	  margin-top: 0;
+	}
+
+	.button-promo {
+		display: block;
+		width: 50%;
+		margin-left: auto;
+	}
+
+	.promo-img__link-tablet {
+		display: none;
+	}
+
+	/* Адаптация формы */
+	.contacts {
+	  padding: 0 20px;
+	  margin-bottom: 70px;
+	}
+
+	.contacts-wrapper {
+	  flex-direction: column;
+	  margin-right: 0;
+	}
+
+	.wrap {
+	  padding: 40px 20px;
+	}
+
+	.wrap::before {
+		top: 379px;
+        right: -19px;
+        width: 350px;
+	}
+
+	.form-img {
+	  width: 100%;
+	  height: 300px;
+	}
+
+	.form-field {
+	  width: 100%;
+	}
+
+	.button-form {
+	  width: 100%;
+	}
+
+	/* Футер */
+	.footer-social__wrapper {
+	  width: 100%;
+	  padding: 40px 20px;
+	  flex-direction: column;
+	}
+
+	.footer-column__logo,
+	.footer-column__social,
+	.footer-column__order {
+	  width: 100%;
+	  margin: 15px 0;
+	  text-align: center;
+	}
+
+	.footer-column__social {
+		margin-bottom: 40px;
+	}
+
+	.footer-column__order {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.social-list {
+	  justify-content: center;
+	}
+
+	.footer-navigation__wrapper::before {
+		width: 768px;
+		box-shadow: 84px 0 #d5c9be;
+	}
+
+	.button-footer {
+		width: 60%;
+	}
+
+	.logo-footer {
+		display: none;
+	}
+  }
+
+
+
