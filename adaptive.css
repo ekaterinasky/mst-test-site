@@ -466,5 +466,151 @@
 	}
   }
 
+  @media (min-width: 1024px) and (max-width: 1199px) {
+    .page-header {
+        padding-left: 100px;
+        background-size: 40% 100%;
+    }
+
+    .main-nav {
+        margin-bottom: 180px;
+    }
+
+    .hero-wrapper {
+        margin-right: 200px;
+    }
+
+    .title {
+        font-size: 70px;
+    }
+
+	.list-title {
+		width: 525px;
+	}
+
+    .promo-list__wrapper {
+        padding: 0 30px;
+    }
+
+	.promo-item:before {
+		width: 38px;
+		height: 27px;
+	}
+
+	.promo-image-container-mobile {
+		display: none;
+	}
+
+    .contacts {
+        padding: 0 100px;
+    }
+
+    .wrap {
+        padding: 72px 0 72px 80px;
+    }
+
+    .wrap::before {
+		width: 350px;
+        right: 131px;
+        top: 152px;;
+    }
+
+    .form-field {
+        width: 600px;
+    }
+
+    .button-form {
+        width: 600px;
+    }
+
+    .footer-navigation__wrapper::before {
+        width: 1024px;
+        box-shadow: 212px 0 #d5c9be;
+    }
+
+    .footer-social__wrapper {
+        width: 100%;
+        padding: 64px 100px;
+    }
+}
 
 
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .page-header {
+        padding-left: 120px;
+        background-size: 763px 100%;
+    }
+
+    .main-nav {
+        margin-bottom: 200px;
+    }
+
+    .hero-wrapper {
+        margin-right: 300px;
+    }
+
+	.promo {
+        flex-wrap: nowrap;
+        margin-bottom: 80px;
+    }
+
+    .promo-column {
+        min-width: auto;
+        padding: 5px;
+    }
+
+    .promo-list__wrapper {
+        width: 500px;
+        margin-top: 30px;
+    }
+
+    .promo-list {
+        width: 100%;
+    }
+
+    .promo-item {
+        margin-bottom: 50px;
+        padding: 30px 0;
+    }
+
+    .promo-item:last-child {
+        margin-bottom: 50px;
+    }
+
+    .promo-item__decor::before {
+        width: 48px;
+        height: 39px;
+        margin-right: 15px;
+    }
+
+    .button-promo {
+        padding: 25px 200px;
+        font-size: 18px;
+    }
+
+    .contacts {
+        padding: 0 120px;
+    }
+
+    .wrap {
+        padding: 72px 0 72px 100px;
+    }
+
+    .wrap::before {
+		right: 62px;
+        top: -95px;
+    }
+
+    .form-field {
+        width: 700px;
+    }
+
+    .button-form {
+        width: 700px;
+    }
+
+    .footer-social__wrapper {
+        width: 100%;
+        padding: 64px 120px;
+    }
+}
