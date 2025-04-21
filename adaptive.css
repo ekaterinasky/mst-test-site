@@ -1,9 +1,5 @@
 /* mobile */
-<<<<<<< HEAD
-@media (min-width: 320px) and (max-width: 768px) {
-=======
 @media (min-width: 321px) and (max-width: 560px)  {
->>>>>>> 3fe6a85 (corrects mobile adaptation)
 
 	body {
 	  min-width: 320px;
@@ -345,7 +341,7 @@
   }
 
 /* tablet (768px) */
-@media (min-width: 571px) and (max-width: 1023px) {
+@media (min-width: 451px) and (max-width: 1023px) {
 	body {
 	  min-width: 100%;
 	  font-size: 18px;
