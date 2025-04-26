@@ -410,7 +410,7 @@ body {
 
 .control-input[type="checkbox"]:checked + .control-mark {
     position: absolute;
-    background-image: url('/img/check-filter.svg');
+    background-image: url('./img/check-filter.svg');
     background-size: 13px 10px;
     background-repeat: no-repeat;
     background-position: center;
