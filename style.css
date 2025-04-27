@@ -161,7 +161,53 @@ body {
 	line-height: 150%;
 	padding: 23px 10px;
 	text-align: center;
+	position: relative;
+  	overflow: hidden;
+  	transition: all 0.3s ease;
 }
+
+.site-navigation__link::before {
+	content: "";
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	background: linear-gradient(
+	  to bottom,
+	  #000000,
+	  #00151e 25%,
+	  #00587a 50%,
+	  #00a8cc 75%,
+	  #000000
+	);
+	background-size: 100% 400%;
+	opacity: 0;
+	transition: opacity 0.5s, background-position 2s;
+	z-index: -1;
+	transform: rotate(15deg);
+  }
+
+  .site-navigation__link:hover::before {
+	opacity: 1;
+	background-position: 0 100%;
+	animation: waterfall-flow 3s linear infinite;
+  }
+
+  @keyframes waterfall-flow {
+	0% {
+	  background-position: 0 0;
+	}
+	100% {
+	  background-position: 0 100%;
+	}
+  }
+
+  /* Корректируем z-index для правильного отображения */
+  .site-navigation__item {
+	position: relative;
+	z-index: 1;
+  }
 
 .hero-wrapper {
 	margin-right: 458px;
